@@ -15,7 +15,7 @@ export const NotFound = () => {
 
                 <p>the page you are looking for not avaible!</p>
 
-                <a href="#service" className="link_404">
+                <a href="https://iqro-company-task.vercel.app" className="link_404">
                   Go to Home
                 </a>
               </div>
