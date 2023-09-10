@@ -45,10 +45,9 @@ export const ContactModal = () => {
       closeModal();
       openAlert()
       setTimeout(() => closeAlert(), 2000);
+      toast.success("Message sent successfully")
     } catch (error) {
       toast.error("Error sending message to Telegram:");
-    }finally{
-      toast.success("Message sent successfully")
     }
   };
 

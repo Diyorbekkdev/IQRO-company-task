@@ -7,4 +7,4 @@ export const request = axios.create({
 });
 
 export const TOKEN = "6680654517:AAHfwg_Jgmzv6nDQT4AY2FE9uV6DvATstC0";
-export const CHAT_ID = "-1001659420064";
+export const CHAT_ID = "-1001902080596";
