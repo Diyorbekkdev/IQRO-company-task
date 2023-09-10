@@ -24,3 +24,10 @@ export interface ServiceCardType {
 export interface DigitalCardType {
     text: string;
 }
+
+export interface FormData {
+    name: string;
+    email: string;
+    message: string;
+  }
+  

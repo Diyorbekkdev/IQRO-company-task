@@ -9,6 +9,7 @@ import menu from "../../assets/icons/menu.svg";
 
 //header styles
 import "./header.scss";
+import { SuccecAlert } from '../succes-alert';
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -62,6 +63,7 @@ export const Header = () => {
       </Container>
 		<Menu visible={isModalVisible} hideMenu={hideMenu}/>
       <ContactModal/>
+      <SuccecAlert/>
     </header>
   );
 };

@@ -1,3 +1,4 @@
+@import '../../styles/mixins';
 .modal__wrapper {
   position: fixed;
   top: 0;
@@ -24,6 +25,9 @@
     border-radius: 15px;
     transform: translateY(-150%);
     transition: .9s ease-out;
+    @include media(500px){
+        height: 750px;
+    }
     .close_btn{
         position: absolute;
         top: 0;

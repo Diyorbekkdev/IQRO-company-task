@@ -11,6 +11,7 @@
   padding: 37px 35px;
   webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
   clip-path: polygon(0 0, 0 100%, 100% 25%, 75% 100%, 100%);
+  transition: 0.3s ease-out;
   @include media(706px) {
     margin-left: 10px;
   }
@@ -32,4 +33,11 @@
   }
   clip-path: polygon(0% 0%, 180% 0%, 0% 180%);
   border-bottom-right-radius: 50px;
+
+  &:hover {
+    transform: scale(1.1);
+    @include media(706px) {
+      transform: scale(1);
+    }
+  }
 }
