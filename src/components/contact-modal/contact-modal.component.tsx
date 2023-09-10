@@ -76,10 +76,10 @@ export const ContactModal = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="номер телефона"
+              placeholder="Ваш электронная почта"
             />
             <input
-              type="text"
+              type="email"
               name="message"
               value={formData.message}
               onChange={handleChange}
