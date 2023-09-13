@@ -79,7 +79,7 @@ export const ContactModal = () => {
               placeholder="Ваш электронная почта"
             />
             <input
-              type="email"
+              type="text"
               name="message"
               value={formData.message}
               onChange={handleChange}
